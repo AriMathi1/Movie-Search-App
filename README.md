@@ -1,5 +1,6 @@
 #Movie Search App
-Description
+
+overview:
 The Movie Search App is a web application that allows users to search for movies, view detailed information about each movie, and filter results based on type. This app fetches data from an external API to provide accurate and real-time movie information. It is designed with a clean and user-friendly interface using ReactJS and styled with Tailwind CSS.
 
 Features
