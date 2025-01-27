@@ -39,7 +39,9 @@ User-friendly error messages for scenarios such as:
 API request failures.
 No search results found.
 
-Tech Stack
+
+
+Tech Stack used:
 
 ReactJS: Core framework for building the application.
 
