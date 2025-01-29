@@ -15,7 +15,7 @@ function MovieDetail() {
         }
 
         const fetchMovieDetails = async () => {
-            const detailsData = await fetch(`http://www.omdbapi.com/?i=${imdbID}&apikey=201f83a1`);
+            const detailsData = await fetch(`https://www.omdbapi.com/?i=${imdbID}&apikey=201f83a1`);
             const detailsResponse = await detailsData.json();
             setMovieDetails(detailsResponse);
         };
