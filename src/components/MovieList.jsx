@@ -25,7 +25,7 @@ function MovieList({ searchValue }) {
         try {
             const typeQuery = type ? `&type=${type}` : '';
             const moviesData = await fetch(
-                `http://www.omdbapi.com/?s=${searchValue}${typeQuery}&page=${page}&apikey=201f83a1`
+                `https://www.omdbapi.com/?s=${searchValue}${typeQuery}&page=${page}&apikey=201f83a1`
             );
 
             if (!moviesData.ok) {
